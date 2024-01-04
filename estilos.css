@@ -16,7 +16,7 @@ h1{
 
 .nav {
     color: white;
-    padding: 10px 20px;
+    padding: 10px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -51,4 +51,92 @@ h1{
 .nav button:hover{
     background-color: rgb(47, 165, 244);
     color: #050216;
+}
+
+main{
+    background-image: url(./img/fondoLogin2.jpg);
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+
+.contenido{
+    background-color: rgba(0, 0, 0, 0.786);
+    color: white;
+    font-size: 1.2rem;
+    height: 91vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 0px 150px;
+}
+
+h2{
+    font-size: 3.5rem;
+    margin: 10px 0px
+}
+
+#frontend{
+    font-size: 1.8rem;
+}
+
+#nombreContenido{
+    color: rgb(47, 165, 244);
+}
+
+.presentacion{
+    margin: 15px 0px;
+    width: 50%;
+    color: rgb(182, 182, 182);
+}
+
+.botones button{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.boton1{
+    width: 120px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: rgb(67, 156, 239);
+    border: 2px solid rgb(67, 156, 239);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton1:hover{
+    box-shadow: 0 0px 20px rgb(3, 22, 232);
+}
+.boton2{
+    width: 130px;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.694);
+    border: 2px solid rgb(3, 22, 232);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton2:hover{
+    box-shadow: 0 0px 15px rgb(3, 22, 232)
+}
+
+.redes{
+    display: flex;
+}
+
+.redes div{
+    margin: 10px 0px;
+    margin-right: 15px;
+}
+
+.redes img {
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    border: 2px solid rgb(47, 165, 244); /* Añade un borde azul de 2px */
+    width: 35px; /* Ajusta el tamaño según sea necesario */
+    height: 35px; /* Ajusta el tamaño según sea necesario */
+    background-color: white;
 }
