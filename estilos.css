@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #050216;
+}
+
+h1{
+
+}
+#portfolio{
+    color: rgb(47, 165, 244);
+}
+
+.nav {
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    max-width: 1300px;
+}
+
+.listaNav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.listaNav ul li{
+    margin: 0px 20px;
+}
+
+.listaNav ul li:hover{
+    color: rgb(47, 165, 244);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav button{
+    padding: 6px 12px;
+    color: white;
+    background-color: #050216;
+    border: 2px solid rgb(47, 165, 244);
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgb(47, 165, 244)
+}
+.nav button:hover{
+    background-color: rgb(47, 165, 244);
+    color: #050216;
+}
